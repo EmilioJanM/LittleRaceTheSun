@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{621c9551-2510-4e27-82aa-462e32b56d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Color">
+      <UniqueIdentifier>{ca2a1eb4-5414-4b6a-89da-67beefd4973a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{10acb8ce-1bb7-4ece-8b5d-f6117d84a3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Rect">
+      <UniqueIdentifier>{39e808f4-b4dd-4cef-8d5f-cf4666f31346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Pyramid">
+      <UniqueIdentifier>{65c9660b-1a6e-4995-94d5-a6b37bd72e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Plane">
+      <UniqueIdentifier>{3f714db7-986f-4683-bb59-622fd463f87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Fade">
+      <UniqueIdentifier>{0c81e5c6-159d-4d57-b694-e7ea7fbfd424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SkyBox">
+      <UniqueIdentifier>{26da1f26-0964-451d-9da1-4aeb5aac7897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Player">
+      <UniqueIdentifier>{e0c69b79-d7b2-40fd-ba48-c4a8eeabd09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Player">
+      <UniqueIdentifier>{c3826023-8f35-429d-9a5d-e8354dc22f20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Plane.cpp">
+      <Filter>Geometry\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Pyramid.cpp">
+      <Filter>Geometry\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Rect.cpp">
+      <Filter>Geometry\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxC.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Color.fs">
+      <Filter>Shaders\Color</Filter>
+    </None>
+    <None Include="Shaders\Color.vs">
+      <Filter>Shaders\Color</Filter>
+    </None>
+    <None Include="Shaders\Color3D.fs">
+      <Filter>Shaders\Color</Filter>
+    </None>
+    <None Include="Shaders\Color3D.vs">
+      <Filter>Shaders\Color</Filter>
+    </None>
+    <None Include="Shaders\ColorFade.fs">
+      <Filter>Shaders\Fade</Filter>
+    </None>
+    <None Include="Shaders\ColorFade.vs">
+      <Filter>Shaders\Fade</Filter>
+    </None>
+    <None Include="Shaders\SkyBox.fs">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\SkyBox.vs">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="Shaders\Player.fs">
+      <Filter>Shaders\Player</Filter>
+    </None>
+    <None Include="Shaders\Player.vs">
+      <Filter>Shaders\Player</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shadern.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Plane.h">
+      <Filter>Geometry\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Pyramid.h">
+      <Filter>Geometry\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Rect.h">
+      <Filter>Geometry\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxC.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
